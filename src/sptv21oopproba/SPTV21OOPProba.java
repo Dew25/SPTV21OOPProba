@@ -5,6 +5,9 @@
  */
 package sptv21oopproba;
 
+import myclasses.Author;
+import myclasses.Book;
+
 /**
  *
  * @author user
@@ -15,7 +18,15 @@ public class SPTV21OOPProba {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        Author author1 = new Author();
+        author1.setFirstname("Aleksandr");
+        author1.setLastname("Puskin");
+        Book book1 = new Book();
+        book1.setCaption("Jevgeny Onegin");
+        Author[] authors = new Author[1];
+        authors[0]=author1;
+        book1.setAuthors(authors);
+        System.out.println(book1.toString());
     }
     
 }
