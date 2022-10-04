@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package oopproba;
+package sptv21oopproba;
 
 /**
  *
  * @author user
  */
-public class OOPProba {
+public class SPTV21OOPProba {
 
     /**
      * @param args the command line arguments
